@@ -1,0 +1,8 @@
+export const actionTypes = {
+    CHANGE_BOARD: 'BOARD/CHANGE_BOARD',
+    CREATE_BOARD: 'BOARD/CREATE_BOARD',
+    ADD_TASK: 'BOARD/ADD_TASK',
+    ADD_DRAGGED_TASK: 'BOARD/ADD_DRAGGED_TASK',
+    DROP_DRAGGED_TASK: 'BOARD/DROP_DRAGGED_TASK',
+};
+//# sourceMappingURL=constants.js.map

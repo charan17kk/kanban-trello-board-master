@@ -1,0 +1,30 @@
+{
+  "name": "kanban-app",
+  "version": "0.0.0",
+  "description": "Webcomponent kanban-app following open-wc recommendations",
+  "author": "kanban-app",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds\""
+  },
+  "dependencies": {
+    "@types/immutable": "^3.8.7",
+    "@types/lodash": "^4.14.170",
+    "@types/uuid": "^8.3.0",
+    "@vaadin/router": "^1.7.4",
+    "bootstrap-icons": "^1.5.0",
+    "immutable": "^4.0.0-rc.12",
+    "lit-element": "^2.5.1",
+    "lit-html": "^1.4.1",
+    "pwa-helpers": "^0.9.1",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.17",
+    "concurrently": "^5.3.0",
+    "typescript": "^4.2.4",
+    "tslib": "^2.2.0"
+  }
+}
